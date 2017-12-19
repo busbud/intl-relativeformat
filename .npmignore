@@ -3,3 +3,4 @@ tasks/
 tests/
 tmp/
 .travis.yml
+Gruntfile.js
