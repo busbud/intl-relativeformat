@@ -56,7 +56,8 @@
   "scripts": {
     "test": "istanbul cover -x lib/locales.js -- _mocha tests/runner.js --reporter spec",
     "travis": "istanbul cover -x lib/locales.js -- _mocha tests/runner.js --reporter spec && tests/saucelabs.sh",
-    "prepublish": "grunt"
+    "prepublish": "grunt",
+    "postinstall": "grunt"
   },
   "homepage": "https://github.com/yahoo/intl-relativeformat",
   "directories": {
