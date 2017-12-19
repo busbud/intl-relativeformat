@@ -1,3 +1,5 @@
+Fixed version, see https://github.com/yahoo/intl-relativeformat/issues/52
+
 Intl RelativeFormat
 ===================
 
